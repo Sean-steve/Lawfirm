@@ -13,6 +13,8 @@
     <!-- CSS Files
     ================================================== -->
     <link id="bootstrap" href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link id="bootstrap-grid" href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
+    <link id="bootstrap-reboot" href="css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
     <link href="css/animate.css" rel="stylesheet" type="text/css" />
     <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" />
     <link href="css/owl.theme.css" rel="stylesheet" type="text/css" />
@@ -23,10 +25,6 @@
     <!-- color scheme -->
     <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css" />
     <link href="css/coloring.css" rel="stylesheet" type="text/css" />
-    <!-- RS5.0 Stylesheet -->
-    <link rel="stylesheet" href="revolution/css/settings.css" type="text/css">
-    <link rel="stylesheet" href="revolution/css/layers.css" type="text/css">
-    <link rel="stylesheet" href="revolution/css/navigation.css" type="text/css">
 </head>
 
 <body>
@@ -51,7 +49,7 @@
             </div>
         </div>
         <!-- header begin -->
-        <header>
+        <header class="transparent scroll-light">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -135,151 +133,74 @@
         <!-- content begin -->
         <div class="no-bottom no-top" id="content">
             <div id="top"></div>
-            <!-- revolution slider begin -->
-            <section id="de-carousel" class="no-top no-bottom carousel slide carousel-fade shadow-2-strong" data-mdb-ride="carousel">
-              <!-- Indicators -->
-              <ol class="carousel-indicators">
-                <li data-mdb-target="#de-carousel" data-mdb-slide-to="0" class="active"></li>
-                <li data-mdb-target="#de-carousel" data-mdb-slide-to="1"></li>
-                <li data-mdb-target="#de-carousel" data-mdb-slide-to="2"></li>
-              </ol>
-
-              <!-- Inner -->
-              <div class="carousel-inner">
-                <!-- Single item -->
-                <div class="carousel-item active" data-bgimage="url(images/slider/1.jpg)">
-                  <div class="mask">
-                    <div class="d-flex justify-content-center align-items-center h-100">
-                      <div class="container text-white">
-                        <div class="row">
-                            <div class="col-lg-5">
-                                <h4 class="id-color wow fadeInUp">Need Any Help?</h4>
-                                <h1 class="mb-3 wow fadeInUp">We Fight for Right</h1>
-                                <p class="lead wow fadeInUp" data-wow-delay=".3s">Providing legal representation and counsel to safeguard your rights. Navigate complex legal challenges, and pursue justice with unwavering dedication.</p>
-                                <div class="spacer-10"></div>
-                                <a href="practice-areas-4.html" class="btn-custom wow fadeInUp" data-wow-delay=".6s">Explore</a>
+            <section aria-label="section" class="jarallax vh-100 no-padding text-light">
+                <img src="images/background/8.jpg" class="jarallax-img" alt="">
+                <div class="v-center">
+                    <div class="container">
+                        <div class="row align-items-center text-center">
+                            <div class="col-lg-6 offset-md-3">
+                                <p class="size70"><i class="icofont-law-alt-3 id-color"></i></p>
+                                <p class="wow fadeInUp" data-wow-delay=".4s">EST. 1998</p>
+                                <h1 class="wow fadeInUp" data-wow-delay=".6s">The Trusted Law Firm</h1>
+                                <div class="spacer-20"></div>
+                                <a class="btn-custom wow fadeInUp" data-wow-delay="1s" href="contact.html">Contact Us</a>
                             </div>
                         </div>
-                      </div>
                     </div>
-                  </div>
                 </div>
-
-                <!-- Single item -->
-                <div class="carousel-item" data-bgimage="url(images/slider/2.jpg)">
-                  <div class="mask">
-                    <div class="d-flex justify-content-center align-items-center h-100">
-                      <div class="container text-white">
-                        <div class="row">
-                            <div class="col-lg-5">
-                                <h4 class="id-color wow fadeInUp">Law &amp; Insurance Specialist</h4>
-                                <h1 class="mb-3 wow fadeInUp">Because We Care</h1>
-                                <p class="lead wow fadeInUp" data-wow-delay=".3s">Providing legal representation and counsel to safeguard your rights. Navigate complex legal challenges, and pursue justice with unwavering dedication.</p>
-                                <div class="spacer-10"></div>
-                                <a href="practice-areas-4.html" class="btn-custom wow fadeInUp" data-wow-delay=".6s">Explore</a>
-                            </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
-               </div>
-              <!-- Inner -->
-
-              <!-- Controls -->
-              <a class="carousel-control-prev" href="#de-carousel" role="button" data-mdb-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#de-carousel" role="button" data-mdb-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
             </section>
-            <!-- revolution slider close -->
-            <section class="pt40 pb40 bg-color text-light">
+            <section id="section-fun-facts" class="pt60 pb60">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-lg-2 col-md-3 wow fadeInUp mb-sm-30" data-wow-delay="0s">
+                            <div class="de_count">
+                                <h3><span class="timer" data-to="4500" data-speed="3000">0</span></h3>
+                                <h5 class="id-color">Home Protected</h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 wow fadeInUp mb-sm-30" data-wow-delay=".25s">
+                            <div class="de_count">
+                                <h3><span class="timer" data-to="16" data-speed="3000">0</span>k</h3>
+                                <h5 class="id-color">People Saved</h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 wow fadeInUp mb-sm-30" data-wow-delay=".4s">
+                            <div class="de_count">
+                                <h3><span class="timer" data-to="4" data-speed="3000">0</span>m</h3>
+                                <h5 class="id-color">Money Saved</h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 wow fadeInUp mb-sm-30" data-wow-delay=".6s">
+                            <div class="de_count">
+                                <h3><span class="timer" data-to="52" data-speed="3000">0</span>k</h3>
+                                <h5 class="id-color">Contract Signed</h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 wow fadeInUp mb-sm-30" data-wow-delay=".8s">
+                            <div class="de_count">
+                                <h3><span class="timer" data-to="100" data-speed="3000">0</span>+</h3>
+                                <h5 class="id-color">Countries</h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 wow fadeInUp mb-sm-30" data-wow-delay="1s">
+                            <div class="de_count">
+                                <h3><span class="timer" data-to="2" data-speed="3000">2</span>k</h3>
+                                <h5 class="id-color">Staff Member</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section data-bgcolor="#172639" class="text-light">
+                <div class="jarallax image-container pos-right col-md-6">
+                    <img src="images/background/11.jpg" class="jarallax-img" alt="">
+                </div>
                 <div class="container">
                     <div class="row align-items-center">
-                        <div class="col-md-8 mb-sm-30 text-lg-start text-sm-center">
-                            <h3 class="no-bottom">Contact Us Now! Get a Free Consultation for Your Case.</h3>
-                        </div>
-                        <div class="col-md-4 text-lg-end rtl-lg-start text-sm-center">
-                            <a href="#" class="btn-custom btn-black light">Make Appointment</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="section-highlight" class="relative text-light" data-bgcolor="#111111">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-4">
-                            <span class="p-title">Welcome</span><br>
-                            <h2>
-                                Reputation.<br>Respect. Result.
-                            </h2>
-                            <div class="small-border sm-left"></div>
-                        </div>
-                        <div class="col-md-8">
-                            <p>We understand that legal issues can be some of the most challenging and stressful experiences in life. Whether you are dealing with a complex family matter, facing criminal charges, or navigating the intricacies of business law, our mission is to provide you with comprehensive, compassionate, and expert legal guidance. Our seasoned attorneys are committed to the highest standard of legal representation tailored to meet your unique needs.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="spacer-double"></div>
-                </div>
-            </section>
-            <section class="no-top relative z1000">
-                <div class="container">
-                    <div class="row mt-100">
-                        <div class="col-md-4 mb-sm-30 wow fadeInRight" data-wow-delay=".2s">
-                            <div class="mask">
-                                <div class="cover">
-                                    <div class="c-inner">
-                                        <h3><i class="icofont-people"></i><span>Business Law</span></h3>
-                                        <p>Explore innovative strategies, expert guidance, and tailored solutions to propel your success forward. </p>
-                                        <div class="spacer20"></div>
-                                        <a href="#" class="btn-custom capsule">Read more</a>
-                                    </div>
-                                </div>
-                                <img src="images/services/1.jpg" alt="" class="img-responsive" />
-                            </div>
-                        </div>
-                        <div class="col-md-4 mb-sm-30 wow fadeInRight" data-wow-delay=".4s">
-                            <div class="mask">
-                                <div class="cover">
-                                    <div class="c-inner">
-                                        <h3><i class="icofont-home"></i><span>Family Law</span></h3>
-                                        <p>Explore innovative strategies, expert guidance, and tailored solutions to propel your success forward. </p>
-                                        <div class="spacer20"></div>
-                                        <a href="#" class="btn-custom capsule">Read more</a>
-                                    </div>
-                                </div>
-                                <img src="images/services/2.jpg" alt="" class="img-responsive" />
-                            </div>
-                        </div>
-                        <div class="col-md-4 mb-sm-30 wow fadeInRight" data-wow-delay=".6s">
-                            <div class="mask">
-                                <div class="cover">
-                                    <div class="c-inner">
-                                        <h3><i class="icofont-law-order"></i><span>Criminal Law</span></h3>
-                                        <p>Explore innovative strategies, expert guidance, and tailored solutions to propel your success forward. </p>
-                                        <div class="spacer20"></div>
-                                        <a href="#" class="btn-custom capsule">Read more</a>
-                                    </div>
-                                </div>
-                                <img src="images/services/3.jpg" alt="" class="img-responsive" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section data-bgcolor="#111111" class="text-light">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-5 offset-lg-7">
+                        <div class="col-lg-5">
                             <span class="p-title">Experiences</span><br>
                             <h2>
-                                Let Our Experience<br>be Your Guide
+                                Why Choose Us?
                             </h2>
                             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                                 <li class="nav-item">
@@ -306,187 +227,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="jarallax image-container col-md-6 pull-right">
-                    <img src="images/background/9.jpg" class="jarallax-img" alt="">
-                </div>
-            </section>
-            <section id="section-practice-areas">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="text-center">
-                                <h2>Practice Areas</h2>
-                                <div class="small-border"></div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 offset-md-3 text-center">
-                            <p>We're dedicated to offering comprehensive, expert legal services tailored to meet your specific needs. Our team of seasoned attorneys brings decades of combined experience across a wide array of practice areas.</p>
-                        </div>
-                        <div class="spacer-single"></div>
-                        <div class="col-md-4">
-                            <ul class="ul-style-2 wow fadeInRight" data-wow-delay=".2s">
-                                <li>Corporate and M&A</li>
-                                <li>Construction and Real Estate</li>
-                                <li>Commercial Duspute Resolution</li>
-                                <li>Employment</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4">
-                            <ul class="ul-style-2 wow fadeInRight" data-wow-delay=".4s">
-                                <li>Banking and Finance</li>
-                                <li>Captial Market</li>
-                                <li>Environmental</li>
-                                <li>Intellectual Property Right</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4">
-                            <ul class="ul-style-2 wow fadeInRight" data-wow-delay=".6s">
-                                <li>Goverment</li>
-                                <li>Foundation/Non Profit Organization</li>
-                                <li>Bankcuptcy</li>
-                                <li>Criminal</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="jarallax text-light">
-                <img src="images/background/2.jpg" class="jarallax-img" alt="">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <span class="p-title">Fun facts</span><br>
-                            <h2>
-                                What we did?
-                            </h2>
-                            <div class="small-border sm-left"></div>
-                            <p>Trust in our expertise and let us champion your legal rights with skill and compassion.</p>
-                        </div>
-                        <div class="col-md-8 offset-md-1">
-                            <div class="row">
-                                <div class="col-lg-4 col-md-6 wow fadeInRight mb30" data-wow-delay="0s">
-                                    <div class="de_count">
-                                        <h3><span class="timer" data-to="4500" data-speed="3000">0</span></h3>
-                                        <h5 class="id-color">Home Protected</h5>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 wow fadeInRight mb30" data-wow-delay=".25s">
-                                    <div class="de_count">
-                                        <h3><span class="timer" data-to="16" data-speed="3000">0</span>k</h3>
-                                        <h5 class="id-color">People Saved</h5>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 wow fadeInRight mb30" data-wow-delay=".4s">
-                                    <div class="de_count">
-                                        <h3><span class="timer" data-to="4" data-speed="3000">0</span>m</h3>
-                                        <h5 class="id-color">Money Saved</h5>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 wow fadeInRight mb30" data-wow-delay=".6s">
-                                    <div class="de_count">
-                                        <h3><span class="timer" data-to="52" data-speed="3000">0</span>k</h3>
-                                        <h5 class="id-color">Contract Signed</h5>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 wow fadeInRight mb30" data-wow-delay=".8s">
-                                    <div class="de_count">
-                                        <h3><span class="timer" data-to="100" data-speed="3000">0</span>+</h3>
-                                        <h5 class="id-color">Countries</h5>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 wow fadeInRight mb30" data-wow-delay="1s">
-                                    <div class="de_count">
-                                        <h3><span class="timer" data-to="2" data-speed="3000">2</span>k</h3>
-                                        <h5 class="id-color">Staff Member</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </section>
             <section aria-label="section">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-12 text-center">
-                            <h2>Our Lawyer Team</h2>
-                            <div class="small-border"></div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6 mb30 wow fadeInRight" data-wow-delay=".2s">
-                            <div class="f-profile text-center">
-                                <div class="fp-wrap f-invert">
-                                    <div class="fpw-overlay">
-                                        <div class="fpwo-wrap">
-                                            <div class="fpwow-icons">
-                                                <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                                                <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                                                <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
-                                                <a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="fpw-overlay-btm"></div>
-                                    <img src="images/team/1.jpg" class="fp-image img-fluid" alt="">
-                                </div>
-                                <h4>Fynley Wilkinson</h4>
-                                Managing Partner
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6 mb30 wow fadeInRight" data-wow-delay=".4s">
-                            <div class="f-profile text-center">
-                                <div class="fp-wrap f-invert">
-                                    <div class="fpw-overlay">
-                                        <div class="fpwo-wrap">
-                                            <div class="fpwow-icons">
-                                                <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                                                <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                                                <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
-                                                <a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="fpw-overlay-btm"></div>
-                                    <img src="images/team/2.jpg" class="fp-image img-fluid" alt="">
-                                </div>
-                                <h4>Sasha Welsh</h4>
-                                Senior Partner
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6 mb30 wow fadeInRight" data-wow-delay=".6s">
-                            <div class="f-profile text-center">
-                                <div class="fp-wrap f-invert">
-                                    <div class="fpw-overlay">
-                                        <div class="fpwo-wrap">
-                                            <div class="fpwow-icons">
-                                                <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                                                <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                                                <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
-                                                <a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="fpw-overlay-btm"></div>
-                                    <img src="images/team/3.jpg" class="fp-image img-fluid" alt="">
-                                </div>
-                                <h4>John Shepard</h4>
-                                Associate
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section aria-label="section" class="jarallax text-light">
-                <img src="images/background/3.jpg" class="jarallax-img" alt="">
-                <div class="container">
-                    <div class="row">
                         <div class="col-lg-12">
-                            <div class="text-center text-light">
+                            <div class="text-center">
                                 <h2>Testimonials</h2>
                                 <div class="small-border"></div>
                             </div>
                             <div class="owl-carousel owl-theme" id="testimonial-carousel">
                                 <div class="item">
-                                    <div class="de_testi opt-2 review">
+                                    <div class="de_testi opt-2 review no-bg">
                                         <blockquote>
                                             <i class="fa fa-quote-left id-color"></i>
                                             <h3>Trustworthy lawyer</h3>
@@ -496,7 +248,7 @@
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <div class="de_testi opt-2 review">
+                                    <div class="de_testi opt-2 review no-bg">
                                         <blockquote>
                                             <i class="fa fa-quote-left id-color"></i>
                                             <h3>Quality lawyer service</h3>
@@ -506,7 +258,7 @@
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <div class="de_testi opt-2 review">
+                                    <div class="de_testi opt-2 review no-bg">
                                         <blockquote>
                                             <i class="fa fa-quote-left id-color"></i>
                                             <h3>Top lawyer listed</h3>
@@ -516,7 +268,7 @@
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <div class="de_testi opt-2 review">
+                                    <div class="de_testi opt-2 review no-bg">
                                         <blockquote>
                                             <i class="fa fa-quote-left id-color"></i>
                                             <h3>Great services</h3>
@@ -526,7 +278,7 @@
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <div class="de_testi opt-2 review">
+                                    <div class="de_testi opt-2 review no-bg">
                                         <blockquote>
                                             <i class="fa fa-quote-left id-color"></i>
                                             <h3>Highly recommend</h3>
@@ -536,7 +288,7 @@
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <div class="de_testi opt-2 review">
+                                    <div class="de_testi opt-2 review no-bg">
                                         <blockquote>
                                             <i class="fa fa-quote-left id-color"></i>
                                             <h3>Excellent support</h3>
@@ -546,7 +298,7 @@
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <div class="de_testi opt-2 review">
+                                    <div class="de_testi opt-2 review no-bg">
                                         <blockquote>
                                             <i class="fa fa-quote-left id-color"></i>
                                             <h3>Reliable lawyer</h3>
@@ -556,7 +308,7 @@
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <div class="de_testi opt-2 review">
+                                    <div class="de_testi opt-2 review no-bg">
                                         <blockquote>
                                             <i class="fa fa-quote-left id-color"></i>
                                             <h3>Five-star services</h3>
@@ -565,6 +317,42 @@
                                         </blockquote>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="no-bottom relative text-white">
+                <div class="container-fluid">
+                    <div class="row bg-color no-gutters mt-100">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="feature-box f-boxed style-3 text-center" data-bgcolor="rgba(0,0,0,.1)">
+                                <i class="icofont-letter"></i>
+                                <div class="text">
+                                    <h4>Request Quote</h4>
+                                    Explore innovative strategies, expert guidance, and tailored solutions to propel your success forward. 
+                                </div>
+                                <i class="wm icofont-letter"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="feature-box f-boxed style-3 text-center" data-bgcolor="rgba(0,0,0,.2)">
+                                <i class="icofont-investigation"></i>
+                                <div class="text">
+                                    <h4>Investigation</h4>
+                                    Explore innovative strategies, expert guidance, and tailored solutions to propel your success forward. 
+                                </div>
+                                <i class="wm icofont-investigation"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="feature-box f-boxed style-3 text-center" data-bgcolor="rgba(0,0,0,.3)">
+                                <i class="icofont-hand-power"></i>
+                                <div class="text">
+                                    <h4>Case Fight</h4>
+                                    Explore innovative strategies, expert guidance, and tailored solutions to propel your success forward. 
+                                </div>
+                                <i class="wm icofont-hand-power"></i>
                             </div>
                         </div>
                     </div>
@@ -581,7 +369,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-4 col-md-6 mb30">
+                        <div class="col-lg-4 col-md-6">
                             <div class="bloglist item">
                                 <div class="post-content">
                                     <div class="date-box">
@@ -600,7 +388,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 mb30">
+                        <div class="col-lg-4 col-md-6">
                             <div class="bloglist item">
                                 <div class="post-content">
                                     <div class="date-box">
@@ -619,7 +407,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 mb30">
+                        <div class="col-lg-4 col-md-6">
                             <div class="bloglist item">
                                 <div class="post-content">
                                     <div class="date-box">
@@ -660,7 +448,7 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <h4 class="id-color mb20">Practice Areas</h4>
+                        <h5 class="id-color mb20">Practice Areas</h5>
                         <ul class="ul-style-2">
                             <li>Corporate and M&A</li>
                             <li>Construction and Real Estate</li>
@@ -670,16 +458,18 @@
                         </ul>
                     </div>
                     <div class="col-lg-4">
-                        <h4 class="id-color">Newsletter</h4>
-                        <p>Signup for our newsletter to get the latest news, updates and special offers in your inbox.</p>
-                        <form action="blank.php" class="row" id="form_subscribe" method="post" name="form_subscribe">
-                            <div class="col text-center">
-                                <input class="form-control" id="name_1" name="name_1" placeholder="enter your email" type="text" /> <a href="#" id="btn-submit"><i class="fa fa-long-arrow-right"></i></a>
-                                <div class="clearfix"></div>
-                            </div>
-                        </form>
-                        <div class="spacer-10"></div>
-                        <small>Your email is safe with us. We don't spam.</small>
+                        <div class="widget">
+                            <h5 class="id-color">Newsletter</h5>
+                            <p>Signup for our newsletter to get the latest news, updates and special offers in your inbox.</p>
+                            <form action="blank.php" class="row" id="form_subscribe" method="post" name="form_subscribe">
+                                <div class="col text-center">
+                                    <input class="form-control" id="name_1" name="name_1" placeholder="enter your email" type="text" /> <a href="#" id="btn-submit"><i class="fa fa-long-arrow-right"></i></a>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </form>
+                            <div class="spacer-10"></div>
+                            <small>Your email is safe with us. We don't spam.</small>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -750,9 +540,7 @@
     <script src="js/jquery.countdown.js"></script>
     <script src="js/typed.js"></script>
     <script src="js/jarallax.js"></script>
-    <script src="js/mdb.min.js"></script>
     <script src="js/designesia.js"></script>
-    
 </body>
 
 </html>
