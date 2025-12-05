@@ -1,5 +1,5 @@
  /* --------------------------------------------------
-  * Â© Copyright 2025 - Justica by Designesia
+  * Â© Copyright 2025 -  Design by Steve
   * --------------------------------------------------*/
 (function($) {
     'use strict';
